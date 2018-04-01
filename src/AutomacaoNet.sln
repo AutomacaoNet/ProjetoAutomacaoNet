@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DFeSoapNet", "DFeSoapNet", "{27CE5DB3-1373-47F1-B6B1-E3CF29F59227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreNet", "CoreNet", "{0F4AB3D7-063E-48A3-BE85-F1763C4A9E6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MDFeNet", "MDFeNet", "{B3A60F9A-AD1A-47BA-8A36-C804DA89EB5B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared.DFeSoapNet", "Shared.DFeSoapNet\Shared.DFeSoapNet.shproj", "{50983104-5BEF-46C5-BE59-DBCAC2409445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFeSoapNetStandard", "DFeSoapNetStandard\DFeSoapNetStandard.csproj", "{2B621867-1248-4076-9E5B-9B22BC894D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFeSoapNet", "DFeSoapNet\DFeSoapNet.csproj", "{AE85DF1C-BE58-46C3-962A-9EB15111256D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DFeCertificadoDigitalNet", "DFeCertificadoDigitalNet", "{A02338B5-7127-4C67-BFF9-4E1E6563CA18}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared.CoreNet", "Shared.CoreNet\Shared.CoreNet.shproj", "{BC3BB139-5DA2-4EA2-B81A-1E7EDE57045C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreNet", "CoreNet\CoreNet.csproj", "{42F3A895-647F-42F5-B7DE-635F378BE1BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreNetStandard", "CoreNetStandard\CoreNetStandard.csproj", "{DA981B06-1283-477F-8E8B-C6BAF9B2FA5F}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared.CoreNet\Shared.CoreNet.projitems*{42f3a895-647f-42f5-b7de-635f378be1be}*SharedItemsImports = 4
+		Shared.DFeSoapNet\Shared.DFeSoapNet.projitems*{50983104-5bef-46c5-be59-dbcac2409445}*SharedItemsImports = 13
+		Shared.DFeSoapNet\Shared.DFeSoapNet.projitems*{ae85df1c-be58-46c3-962a-9eb15111256d}*SharedItemsImports = 4
+		Shared.CoreNet\Shared.CoreNet.projitems*{bc3bb139-5da2-4ea2-b81a-1e7ede57045c}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B621867-1248-4076-9E5B-9B22BC894D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B621867-1248-4076-9E5B-9B22BC894D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B621867-1248-4076-9E5B-9B22BC894D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B621867-1248-4076-9E5B-9B22BC894D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE85DF1C-BE58-46C3-962A-9EB15111256D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE85DF1C-BE58-46C3-962A-9EB15111256D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE85DF1C-BE58-46C3-962A-9EB15111256D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE85DF1C-BE58-46C3-962A-9EB15111256D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F3A895-647F-42F5-B7DE-635F378BE1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F3A895-647F-42F5-B7DE-635F378BE1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F3A895-647F-42F5-B7DE-635F378BE1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F3A895-647F-42F5-B7DE-635F378BE1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA981B06-1283-477F-8E8B-C6BAF9B2FA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA981B06-1283-477F-8E8B-C6BAF9B2FA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA981B06-1283-477F-8E8B-C6BAF9B2FA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA981B06-1283-477F-8E8B-C6BAF9B2FA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50983104-5BEF-46C5-BE59-DBCAC2409445} = {27CE5DB3-1373-47F1-B6B1-E3CF29F59227}
+		{2B621867-1248-4076-9E5B-9B22BC894D58} = {27CE5DB3-1373-47F1-B6B1-E3CF29F59227}
+		{AE85DF1C-BE58-46C3-962A-9EB15111256D} = {27CE5DB3-1373-47F1-B6B1-E3CF29F59227}
+		{BC3BB139-5DA2-4EA2-B81A-1E7EDE57045C} = {0F4AB3D7-063E-48A3-BE85-F1763C4A9E6F}
+		{42F3A895-647F-42F5-B7DE-635F378BE1BE} = {0F4AB3D7-063E-48A3-BE85-F1763C4A9E6F}
+		{DA981B06-1283-477F-8E8B-C6BAF9B2FA5F} = {0F4AB3D7-063E-48A3-BE85-F1763C4A9E6F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0A7BED0-D824-4D5B-BE7F-52B090269004}
+	EndGlobalSection
+EndGlobal
