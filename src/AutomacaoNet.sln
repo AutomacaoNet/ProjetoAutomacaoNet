@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MDFeNet", "MDFeNet", "{B3A6
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared.DFeSoapNet", "Shared.DFeSoapNet\Shared.DFeSoapNet.shproj", "{50983104-5BEF-46C5-BE59-DBCAC2409445}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFeSoapNetStandard", "DFeSoapNetStandard\DFeSoapNetStandard.csproj", "{2B621867-1248-4076-9E5B-9B22BC894D58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFeSoapNetStandard", "DFeSoapNetStandard\DFeSoapNetStandard.csproj", "{2B621867-1248-4076-9E5B-9B22BC894D58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFeSoapNet", "DFeSoapNet\DFeSoapNet.csproj", "{AE85DF1C-BE58-46C3-962A-9EB15111256D}"
 EndProject
@@ -21,12 +21,20 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared.CoreNet", "Shared.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreNet", "CoreNet\CoreNet.csproj", "{42F3A895-647F-42F5-B7DE-635F378BE1BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreNetStandard", "CoreNetStandard\CoreNetStandard.csproj", "{DA981B06-1283-477F-8E8B-C6BAF9B2FA5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreNetStandard", "CoreNetStandard\CoreNetStandard.csproj", "{DA981B06-1283-477F-8E8B-C6BAF9B2FA5F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared.DFeCertificadoDigitalNet", "Shared.DFeCertificadoDigitalNet\Shared.DFeCertificadoDigitalNet.shproj", "{17C39AD7-AB9A-4708-BDB6-ED3DB1C900B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFeCertificadoDigitalNetStandard", "DFeCertificadoDigitalNetStandard\DFeCertificadoDigitalNetStandard.csproj", "{353F9965-EDAF-4ECB-A0BC-9DCE7E3B5B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFeCertificadoDigitalNet", "DFeCertificadoDigitalNet\DFeCertificadoDigitalNet.csproj", "{63118F74-DA89-4738-8AF1-AA70856BDA8C}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared.DFeCertificadoDigitalNet\Shared.DFeCertificadoDigitalNet.projitems*{17c39ad7-ab9a-4708-bdb6-ed3db1c900b0}*SharedItemsImports = 13
 		Shared.CoreNet\Shared.CoreNet.projitems*{42f3a895-647f-42f5-b7de-635f378be1be}*SharedItemsImports = 4
 		Shared.DFeSoapNet\Shared.DFeSoapNet.projitems*{50983104-5bef-46c5-be59-dbcac2409445}*SharedItemsImports = 13
+		Shared.DFeCertificadoDigitalNet\Shared.DFeCertificadoDigitalNet.projitems*{63118f74-da89-4738-8af1-aa70856bda8c}*SharedItemsImports = 4
 		Shared.DFeSoapNet\Shared.DFeSoapNet.projitems*{ae85df1c-be58-46c3-962a-9eb15111256d}*SharedItemsImports = 4
 		Shared.CoreNet\Shared.CoreNet.projitems*{bc3bb139-5da2-4ea2-b81a-1e7ede57045c}*SharedItemsImports = 13
 	EndGlobalSection
@@ -51,6 +59,14 @@ Global
 		{DA981B06-1283-477F-8E8B-C6BAF9B2FA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA981B06-1283-477F-8E8B-C6BAF9B2FA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA981B06-1283-477F-8E8B-C6BAF9B2FA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{353F9965-EDAF-4ECB-A0BC-9DCE7E3B5B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{353F9965-EDAF-4ECB-A0BC-9DCE7E3B5B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{353F9965-EDAF-4ECB-A0BC-9DCE7E3B5B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{353F9965-EDAF-4ECB-A0BC-9DCE7E3B5B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63118F74-DA89-4738-8AF1-AA70856BDA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63118F74-DA89-4738-8AF1-AA70856BDA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63118F74-DA89-4738-8AF1-AA70856BDA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63118F74-DA89-4738-8AF1-AA70856BDA8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +78,9 @@ Global
 		{BC3BB139-5DA2-4EA2-B81A-1E7EDE57045C} = {0F4AB3D7-063E-48A3-BE85-F1763C4A9E6F}
 		{42F3A895-647F-42F5-B7DE-635F378BE1BE} = {0F4AB3D7-063E-48A3-BE85-F1763C4A9E6F}
 		{DA981B06-1283-477F-8E8B-C6BAF9B2FA5F} = {0F4AB3D7-063E-48A3-BE85-F1763C4A9E6F}
+		{17C39AD7-AB9A-4708-BDB6-ED3DB1C900B0} = {A02338B5-7127-4C67-BFF9-4E1E6563CA18}
+		{353F9965-EDAF-4ECB-A0BC-9DCE7E3B5B60} = {A02338B5-7127-4C67-BFF9-4E1E6563CA18}
+		{63118F74-DA89-4738-8AF1-AA70856BDA8C} = {A02338B5-7127-4C67-BFF9-4E1E6563CA18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0A7BED0-D824-4D5B-BE7F-52B090269004}
